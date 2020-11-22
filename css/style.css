@@ -59,7 +59,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #000000;
-    margin-bottom: 170px;
+    margin-bottom: 100px;
     
 
 }
@@ -72,7 +72,7 @@
 .nav > li > a{
     text-decoration: none;
     color: white;
-    padding: 25px 100px;
+    padding: 25px 60px;
     display: block;
     font-size:23px ;
     font-weight: 900;  
@@ -87,10 +87,14 @@
     list-style: none;
     
     
+    
+    
 }
 
 .dropdown{
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     
     
     
@@ -98,7 +102,7 @@
 .dropdown-menue > li > a{
     text-decoration: none;
     color: #e6548d;
-    margin: 20px 100px;
+    margin: 20px 60px;
     display: block;
     font-size:23px ;
     font-weight: 900;
@@ -142,8 +146,8 @@
 
 }
 .table img{
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     float: left;
     
 
@@ -152,7 +156,7 @@
 .product-desc{
     text-align: center;
     color: #a3385f;
-    padding: 18px;
+    padding: 15px 10px 15px 10px;
     float: right;
     line-height: 30px;
 }
