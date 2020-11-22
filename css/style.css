@@ -56,22 +56,59 @@
     height: 70px;  
     list-style: none;
     text-align: center;
-    
+    margin-left: auto;
+    margin-right: auto;
     background-color: #000000;
+    margin-bottom: 170px;
+    
 
 }
 
-.nav li{
+.nav > li{
     display: inline-block;
+    
 }
 
-.nav li a{
+.nav > li > a{
     text-decoration: none;
-    color: #e6548d;
-    padding: 20px 100px;
+    color: white;
+    padding: 25px 100px;
     display: block;
     font-size:23px ;
-    font-weight: 600;   
+    font-weight: 900;  
+    
+}
+
+
+
+.dropdown-menue{
+    position: absolute;
+    text-align: center;
+    list-style: none;
+    
+    
+}
+
+.dropdown{
+    position: relative;
+    
+    
+    
+}
+.dropdown-menue > li > a{
+    text-decoration: none;
+    color: #e6548d;
+    margin: 20px 100px;
+    display: block;
+    font-size:23px ;
+    font-weight: 900;
+    text-align: center;
+    height: auto;
+    width: 150px;
+    margin-bottom: 60px;
+    background-color: #ff008c25; 
+     
+    
 }
                                        /*home section*/
 
